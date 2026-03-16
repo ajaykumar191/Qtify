@@ -1,0 +1,22 @@
+.navbar {
+  height: 74px;
+  width: 100%;
+    
+  background-color: var(--primary-green);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 32px;
+} */

@@ -1,0 +1,25 @@
+.section {
+  padding: 40px 80px;
+  background-color: var(--black);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  margin-bottom: 20px;
+}
+
+.toggle {
+  color: var(--primary-green);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 160px);
+  gap: 20px;
+}
